@@ -1,3 +1,7 @@
+server:
+  port: 8080
+
+
 mybatis-plus:
   mapper-locations: classpath*:com/next/juc/**/xml/*Mapper.xml
   global-config:
@@ -17,3 +21,4 @@ logging:
   level.com.next.juc: debug
   paths: logs/
   file: next-film.log
+
